@@ -1,14 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import MainContainer from "./containers/MainContainer";
-import HelloWorld from "./components/HelloWorld";
-
-const App = () => {
-  return (
-    <MainContainer>
-      <HelloWorld />
-    </MainContainer>
-  )
-}
+import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("app"));

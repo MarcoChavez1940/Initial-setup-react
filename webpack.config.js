@@ -35,4 +35,9 @@ module.exports = {
       filename: "./index.html",
     }),
   ],
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './',
+    hot: true
+ },
 };
